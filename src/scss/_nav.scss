@@ -1,0 +1,11 @@
+nav {
+  position: fixed;
+  bottom: 0px;
+  height: $appbars--height;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: $border--ultralight;
+  background-color: $color--background;
+}

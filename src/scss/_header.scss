@@ -1,0 +1,37 @@
+header {
+  position: sticky;
+  top: 0;
+  height: $appbars--height;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px $spacing--normal;
+  border-bottom: $border--ultralight;
+  background-color: $color--background;
+}
+
+.header {
+  &--left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    & > img {
+      height: 32px;
+      width: 32px;
+      border-radius: 100%;
+      margin-right: $spacing--normal;
+    }
+
+    & > h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+  }
+
+  &--right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: $spacing--normal;
+  }
+}

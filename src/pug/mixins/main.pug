@@ -1,0 +1,4 @@
+include tweet.pug
+main
+  each tweet in tweets
+    +tweet(tweet.authorName, tweet.authorHandle, tweet.content, tweet.replies, tweet.retweets, tweet.likes, tweet.postedTime)
